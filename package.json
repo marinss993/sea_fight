@@ -1,0 +1,21 @@
+{
+  "name": "seawar",
+  "version": "0.0.1",
+  "description": "ExpressApp1",
+  "main": "app.js",
+  "author": "Sergey",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "normalize.css": "^3.0.3",
+    "sockjs": "^0.3.15"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Игра",
+    "Морской",
+    "бой"
+  ],
+  "license": "ISC"
+}

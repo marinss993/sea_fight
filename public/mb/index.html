@@ -1,0 +1,375 @@
+﻿<!DOCTYPE html>
+<html dir="auto">
+<head lang="ru">
+    <meta charset="UTF-8">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="css/default.css" rel="stylesheet">
+    
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/default.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wsClient.js"></script>
+    
+<title>Морской БОЙ</title>
+</head>
+<body class="container">
+<header class="row">
+    <div class="col-md-12">
+    <h1 class="text-center">Морской БОЙ!!!!</h1>
+    </div>
+
+
+</header>
+<nav class="row">
+    <div class="col-md-12">
+        <form class="form-inline" role="form">
+            <div class="form-group">
+                <label class="sr-only">Ваше Имя</label>
+                <input type="text" class="form-control" id="kepName" placeholder="Ваше Имя">
+            </div>
+        </form>
+    </div>
+</nav>
+
+<main class="row">
+
+    <div class="col-md-5 col-sm-5" >
+        <table id="panel1" class="table table-bordered table-striped table-responsive">
+            <caption><h2>Мои корабли</h2></caption>
+            <thead>
+            <tr>
+                <th>#</th>
+                <th>A</th>
+                <th>B</th>
+                <th>C</th>
+                <th>D</th>
+                <th>E</th>
+                <th>F</th>
+                <th>G</th>
+                <th>H</th>
+                <th>I.</th>
+                <th>J</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>1</td>
+                <td class="colTab" id="w00" data-status=""></td>
+                <td class="colTab" id="w01" data-status=""></td>
+                <td class="colTab" id="w02" data-status=""></td>
+                <td class="colTab" id="w03" data-status=""></td>
+                <td class="colTab" id="w04" data-status=""></td>
+                <td class="colTab" id="w05" data-status=""></td>
+                <td class="colTab" id="w06" data-status=""></td>
+                <td class="colTab" id="w07" data-status=""></td>
+                <td class="colTab" id="w08" data-status=""></td>
+                <td class="colTab" id="w09" data-status=""></td>
+            </tr>                          
+            <tr>                           
+                <td>2</td>                 
+                <td class="colTab" id="w10" data-status=""></td>
+                <td class="colTab" id="w11" data-status=""></td>
+                <td class="colTab" id="w12" data-status=""></td>
+                <td class="colTab" id="w13" data-status=""></td>
+                <td class="colTab" id="w14" data-status=""></td>
+                <td class="colTab" id="w15" data-status=""></td>
+                <td class="colTab" id="w16" data-status=""></td>
+                <td class="colTab" id="w17" data-status=""></td>
+                <td class="colTab" id="w18" data-status=""></td>
+                <td class="colTab" id="w19" data-status=""></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td class="colTab" id="w20" data-status=""></td>
+                <td class="colTab" id="w21" data-status=""></td>
+                <td class="colTab" id="w22" data-status=""></td>
+                <td class="colTab" id="w23" data-status=""></td>
+                <td class="colTab" id="w24" data-status=""></td>
+                <td class="colTab" id="w25" data-status=""></td>
+                <td class="colTab" id="w26" data-status=""></td>
+                <td class="colTab" id="w27" data-status=""></td>
+                <td class="colTab" id="w28" data-status=""></td>
+                <td class="colTab" id="w29" data-status=""></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td class="colTab" id="w30" data-status=""></td>
+                <td class="colTab" id="w31" data-status=""></td>
+                <td class="colTab" id="w32" data-status=""></td>
+                <td class="colTab" id="w33" data-status=""></td>
+                <td class="colTab" id="w34" data-status=""></td>
+                <td class="colTab" id="w35" data-status=""></td>
+                <td class="colTab" id="w36" data-status=""></td>
+                <td class="colTab" id="w37" data-status=""></td>
+                <td class="colTab" id="w38" data-status=""></td>
+                <td class="colTab" id="w39" data-status=""></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td class="colTab" id="w40" data-status=""></td>
+                <td class="colTab" id="w41" data-status=""></td>
+                <td class="colTab" id="w42" data-status=""></td>
+                <td class="colTab" id="w43" data-status=""></td>
+                <td class="colTab" id="w44" data-status=""></td>
+                <td class="colTab" id="w45" data-status=""></td>
+                <td class="colTab" id="w46" data-status=""></td>
+                <td class="colTab" id="w47" data-status=""></td>
+                <td class="colTab" id="w48" data-status=""></td>
+                <td class="colTab" id="w49" data-status=""></td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td class="colTab" id="w50" data-status=""></td>
+                <td class="colTab" id="w51" data-status=""></td>
+                <td class="colTab" id="w52" data-status=""></td>
+                <td class="colTab" id="w53" data-status=""></td>
+                <td class="colTab" id="w54" data-status=""></td>
+                <td class="colTab" id="w55" data-status=""></td>
+                <td class="colTab" id="w56" data-status=""></td>
+                <td class="colTab" id="w57" data-status=""></td>
+                <td class="colTab" id="w58" data-status=""></td>
+                <td class="colTab" id="w59" data-status=""></td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td class="colTab" id="w60" data-status=""></td>
+                <td class="colTab" id="w61" data-status=""></td>
+                <td class="colTab" id="w62" data-status=""></td>
+                <td class="colTab" id="w63" data-status=""></td>
+                <td class="colTab" id="w64" data-status=""></td>
+                <td class="colTab" id="w65" data-status=""></td>
+                <td class="colTab" id="w66" data-status=""></td>
+                <td class="colTab" id="w67" data-status=""></td>
+                <td class="colTab" id="w68" data-status=""></td>
+                <td class="colTab" id="w69" data-status=""></td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td class="colTab" id="w70" data-status=""></td>
+                <td class="colTab" id="w71" data-status=""></td>
+                <td class="colTab" id="w72" data-status=""></td>
+                <td class="colTab" id="w73" data-status=""></td>
+                <td class="colTab" id="w74" data-status=""></td>
+                <td class="colTab" id="w75" data-status=""></td>
+                <td class="colTab" id="w76" data-status=""></td>
+                <td class="colTab" id="w77" data-status=""></td>
+                <td class="colTab" id="w78" data-status=""></td>
+                <td class="colTab" id="w79" data-status=""></td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td class="colTab" id="w80" data-status=""></td>
+                <td class="colTab" id="w81" data-status=""></td>
+                <td class="colTab" id="w82" data-status=""></td>
+                <td class="colTab" id="w83" data-status=""></td>
+                <td class="colTab" id="w84" data-status=""></td>
+                <td class="colTab" id="w85" data-status=""></td>
+                <td class="colTab" id="w86" data-status=""></td>
+                <td class="colTab" id="w87" data-status=""></td>
+                <td class="colTab" id="w88" data-status=""></td>
+                <td class="colTab" id="w89" data-status=""></td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td class="colTab" id="w90" data-status=""></td>
+                <td class="colTab" id="w91" data-status=""></td>
+                <td class="colTab" id="w92" data-status=""></td>
+                <td class="colTab" id="w93" data-status=""></td>
+                <td class="colTab" id="w94" data-status=""></td>
+                <td class="colTab" id="w95" data-status=""></td>
+                <td class="colTab" id="w96" data-status=""></td>
+                <td class="colTab" id="w97" data-status=""></td>
+                <td class="colTab" id="w98" data-status=""></td>
+                <td class="colTab" id="w99" data-status=""></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="col-md-2 col-sm-2">
+        <button id="uctanovShip1" data-ship="4" data-palub="1" type="button" class="btn btn-default btn-lg btn-block">Подлодка 0(4)</button>
+        <button id="uctanovShip2" data-ship="3" data-palub="2" type="button" class="btn btn-default btn-lg btn-block">Эсминец 0(3)</button>
+        <button id="uctanovShip3" data-ship="2" data-palub="3" type="button" class="btn btn-default btn-lg btn-block">Крейсер 0(2)</button>
+        <button id="uctanovShip4" data-ship="1" data-palub="4" type="button" class="btn btn-default btn-lg btn-block">Линкор 0(1)</button>
+    </div>
+    <div class="col-md-5 col-sm-5">
+        <table class="table table-bordered table-striped table-responsive">
+            <caption><h2>Корабли притивника</h2></caption>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>A</th>
+                    <th>B</th>
+                    <th>C</th>
+                    <th>D</th>
+                    <th>E</th>
+                    <th>F</th>
+                    <th>G</th>
+                    <th>H</th>
+                    <th>I.</th>
+                    <th>J</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>1</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+
+</main>
+<footer class="row">
+    <div class="col-md-4 col-sm-4">
+
+            <div class="list-inline">
+                <button class="btn btn-primary">Расставить корабли</button>
+                <button id="btClear" class="btn btn-warning">Очистить</button>
+            </div>
+
+    </div>
+    <div class="col-md-4 col-sm-4">
+
+    </div>
+    <div class="col-md-4 col-sm-4">
+        <button id="foo" class="btn btn-danger center-block btn-lg">ОГОНЬ</button>
+    </div>
+
+</footer>
+    <script>
+        var socket = new WebSocket("ws://localhost:8081");
+        document.querySelector('sdfgsdfg')
+    </script>
+</body>
+
+</html>

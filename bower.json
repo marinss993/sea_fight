@@ -1,0 +1,29 @@
+{
+  "name": "sewar",
+  "version": "0.0.1",
+  "description": "Игра в морской бой",
+  "main": "app.js",
+  "authors": [
+    "Marin"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "https://github.com/expressjs/body-parser.git#~1.14.1",
+    "bootstrap": "~3.3.5",
+    "debug": "~2.2.0",
+    "errorhandler": "https://github.com/expressjs/errorhandler.git#~1.4.2",
+    "express": "~4.13.3",
+    "finalhandler": "https://github.com/pillarjs/finalhandler.git#~0.4.0",
+    "jade": "~1.11.0",
+    "merge-descriptors": "https://github.com/component/merge-descriptors.git#~1.0.0",
+    "method-override": "https://github.com/expressjs/method-override.git#~2.3.5",
+    "morgan": "https://github.com/expressjs/morgan.git#~1.6.1",
+    "multer": "https://github.com/expressjs/multer.git#~1.0.3",
+    "serve-favicon": "https://github.com/expressjs/serve-favicon.git#~2.3.0",
+    "serve-static": "https://github.com/expressjs/serve-static.git#~1.10.0",
+    "session": "https://github.com/expressjs/session.git#~1.11.3",
+    "sockjs": "~0.3.4",
+    "stylus": "~0.52.4",
+    "visionmedia-debug": "https://github.com/visionmedia/debug.git#~2.2.0"
+  }
+}

@@ -1,0 +1,404 @@
+﻿<!DOCTYPE html>
+<html dir="auto">
+<head lang="ru">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylesheets/normalize.css"/>
+    <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheets/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="stylesheets/animate.css"/>
+    <title>Морской БОЙ</title>
+</head>
+<body class="container">
+    <header class="row">
+        <div class="col-md-12">
+            <h1 class="text-center">Морской БОЙ!!!!</h1>
+        </div>
+
+
+    </header>
+    <nav class="row">
+        <div class="col-md-12">
+            <div class="form-group form-inline">
+                <label class="sr-only">Ваше Имя</label>
+                <input type="text" class="form-control" id="kepName" placeholder="Ваше Имя">
+                <button id="sendName" class="btn btn-default">Отправить</button>
+                <!--btn-success btn-danger-->
+            </div>
+        </div>
+    </nav>
+
+    <main class="row">
+
+        <div class="col-md-5 col-sm-5">
+            <table id="panel1" class="table table-bordered table-responsive">
+                <caption><h2 id="pole1">Мои корабли</h2></caption>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>A</th>
+                        <th>B</th>
+                        <th>C</th>
+                        <th>D</th>
+                        <th>E</th>
+                        <th>F</th>
+                        <th>G</th>
+                        <th>H</th>
+                        <th>I.</th>
+                        <th>J</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>1</th>
+                        <td class="colTab" id="w00" data-status="0"></td>
+                        <td class="colTab" id="w01" data-status="0"></td>
+                        <td class="colTab" id="w02" data-status="0"></td>
+                        <td class="colTab" id="w03" data-status="0"></td>
+                        <td class="colTab" id="w04" data-status="0"></td>
+                        <td class="colTab" id="w05" data-status="0"></td>
+                        <td class="colTab" id="w06" data-status="0"></td>
+                        <td class="colTab" id="w07" data-status="0"></td>
+                        <td class="colTab" id="w08" data-status="0"></td>
+                        <td class="colTab" id="w09" data-status="0"></td>
+                    </tr>
+                    <tr>
+                        <th>2</th>
+                        <td class="colTab" id="w10" data-status="0"></td>
+                        <td class="colTab" id="w11" data-status="0"></td>
+                        <td class="colTab" id="w12" data-status="0"></td>
+                        <td class="colTab" id="w13" data-status="0"></td>
+                        <td class="colTab" id="w14" data-status="0"></td>
+                        <td class="colTab" id="w15" data-status="0"></td>
+                        <td class="colTab" id="w16" data-status="0"></td>
+                        <td class="colTab" id="w17" data-status="0"></td>
+                        <td class="colTab" id="w18" data-status="0"></td>
+                        <td class="colTab" id="w19" data-status="0"></td>
+                    </tr>
+                    <tr>
+                        <th>3</th>
+                        <td class="colTab" id="w20" data-status="0"></td>
+                        <td class="colTab" id="w21" data-status="0"></td>
+                        <td class="colTab" id="w22" data-status="0"></td>
+                        <td class="colTab" id="w23" data-status="0"></td>
+                        <td class="colTab" id="w24" data-status="0"></td>
+                        <td class="colTab" id="w25" data-status="0"></td>
+                        <td class="colTab" id="w26" data-status="0"></td>
+                        <td class="colTab" id="w27" data-status="0"></td>
+                        <td class="colTab" id="w28" data-status="0"></td>
+                        <td class="colTab" id="w29" data-status="0"></td>
+                    </tr>
+                    <tr>
+                        <th>4</th>
+                        <td class="colTab" id="w30" data-status="0"></td>
+                        <td class="colTab" id="w31" data-status="0"></td>
+                        <td class="colTab" id="w32" data-status="0"></td>
+                        <td class="colTab" id="w33" data-status="0"></td>
+                        <td class="colTab" id="w34" data-status="0"></td>
+                        <td class="colTab" id="w35" data-status="0"></td>
+                        <td class="colTab" id="w36" data-status="0"></td>
+                        <td class="colTab" id="w37" data-status="0"></td>
+                        <td class="colTab" id="w38" data-status="0"></td>
+                        <td class="colTab" id="w39" data-status="0"></td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td class="colTab" id="w40" data-status="0"></td>
+                        <td class="colTab" id="w41" data-status="0"></td>
+                        <td class="colTab" id="w42" data-status="0"></td>
+                        <td class="colTab" id="w43" data-status="0"></td>
+                        <td class="colTab" id="w44" data-status="0"></td>
+                        <td class="colTab" id="w45" data-status="0"></td>
+                        <td class="colTab" id="w46" data-status="0"></td>
+                        <td class="colTab" id="w47" data-status="0"></td>
+                        <td class="colTab" id="w48" data-status="0"></td>
+                        <td class="colTab" id="w49" data-status="0"></td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td class="colTab" id="w50" data-status="0"></td>
+                        <td class="colTab" id="w51" data-status="0"></td>
+                        <td class="colTab" id="w52" data-status="0"></td>
+                        <td class="colTab" id="w53" data-status="0"></td>
+                        <td class="colTab" id="w54" data-status="0"></td>
+                        <td class="colTab" id="w55" data-status="0"></td>
+                        <td class="colTab" id="w56" data-status="0"></td>
+                        <td class="colTab" id="w57" data-status="0"></td>
+                        <td class="colTab" id="w58" data-status="0"></td>
+                        <td class="colTab" id="w59" data-status="0"></td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td class="colTab" id="w60" data-status="0"></td>
+                        <td class="colTab" id="w61" data-status="0"></td>
+                        <td class="colTab" id="w62" data-status="0"></td>
+                        <td class="colTab" id="w63" data-status="0"></td>
+                        <td class="colTab" id="w64" data-status="0"></td>
+                        <td class="colTab" id="w65" data-status="0"></td>
+                        <td class="colTab" id="w66" data-status="0"></td>
+                        <td class="colTab" id="w67" data-status="0"></td>
+                        <td class="colTab" id="w68" data-status="0"></td>
+                        <td class="colTab" id="w69" data-status="0"></td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td class="colTab" id="w70" data-status="0"></td>
+                        <td class="colTab" id="w71" data-status="0"></td>
+                        <td class="colTab" id="w72" data-status="0"></td>
+                        <td class="colTab" id="w73" data-status="0"></td>
+                        <td class="colTab" id="w74" data-status="0"></td>
+                        <td class="colTab" id="w75" data-status="0"></td>
+                        <td class="colTab" id="w76" data-status="0"></td>
+                        <td class="colTab" id="w77" data-status="0"></td>
+                        <td class="colTab" id="w78" data-status="0"></td>
+                        <td class="colTab" id="w79" data-status="0"></td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td class="colTab" id="w80" data-status="0"></td>
+                        <td class="colTab" id="w81" data-status="0"></td>
+                        <td class="colTab" id="w82" data-status="0"></td>
+                        <td class="colTab" id="w83" data-status="0"></td>
+                        <td class="colTab" id="w84" data-status="0"></td>
+                        <td class="colTab" id="w85" data-status="0"></td>
+                        <td class="colTab" id="w86" data-status="0"></td>
+                        <td class="colTab" id="w87" data-status="0"></td>
+                        <td class="colTab" id="w88" data-status="0"></td>
+                        <td class="colTab" id="w89" data-status="0"></td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td class="colTab" id="w90" data-status="0"></td>
+                        <td class="colTab" id="w91" data-status="0"></td>
+                        <td class="colTab" id="w92" data-status="0"></td>
+                        <td class="colTab" id="w93" data-status="0"></td>
+                        <td class="colTab" id="w94" data-status="0"></td>
+                        <td class="colTab" id="w95" data-status="0"></td>
+                        <td class="colTab" id="w96" data-status="0"></td>
+                        <td class="colTab" id="w97" data-status="0"></td>
+                        <td class="colTab" id="w98" data-status="0"></td>
+                        <td class="colTab" id="w99" data-status="0"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="col-md-2 col-sm-2">
+
+            <button id="ogon" class="btn btn-default btn-lg btn-block" disabled="disabled">Огонь</button>
+             <!--btn-success btn-danger-->
+            <button id="uctanovShip1" data-ship="4" data-palub="1" type="button" class="btn btn-default btn-lg btn-block">Подлодка <span class="badge">0(4)</span></button>
+            <button id="uctanovShip2" data-ship="3" data-palub="2" type="button" class="btn btn-default btn-lg btn-block">Эсминец <span class="badge">0(3)</span></button>
+            <button id="uctanovShip3" data-ship="2" data-palub="3" type="button" class="btn btn-default btn-lg btn-block">Крейсер <span class="badge">0(2)</span></button>
+            <button id="uctanovShip4" data-ship="1" data-palub="4" type="button" class="btn btn-default btn-lg btn-block">Линкор <span class="badge">0(1)</span></button>
+            <div id="spisok">
+            </div>
+        </div>
+        <div class="col-md-5 col-sm-5">
+            <table id="panel2" class="table table-bordered table-responsive disabled">
+                <caption><h2 id="protText">Корабли притивника</h2></caption>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>A</th>
+                        <th>B</th>
+                        <th>C</th>
+                        <th>D</th>
+                        <th>E</th>
+                        <th>F</th>
+                        <th>G</th>
+                        <th>H</th>
+                        <th>I.</th>
+                        <th>J</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>1</th>
+                        <td class="colTab2" id="p00" data-status="w00"></td>
+                        <td class="colTab2" id="p01" data-status="w01"></td>
+                        <td class="colTab2" id="p02" data-status="w02"></td>
+                        <td class="colTab2" id="p03" data-status="w03"></td>
+                        <td class="colTab2" id="p04" data-status="w04"></td>
+                        <td class="colTab2" id="p05" data-status="w05"></td>
+                        <td class="colTab2" id="p06" data-status="w06"></td>
+                        <td class="colTab2" id="p07" data-status="w07"></td>
+                        <td class="colTab2" id="p08" data-status="w08"></td>
+                        <td class="colTab2" id="p09" data-status="w09"></td>
+                    </tr>
+                    <tr>
+                        <th>2</th>
+                        <td class="colTab2" id="p10" data-status="w10"></td>
+                        <td class="colTab2" id="p11" data-status="w11"></td>
+                        <td class="colTab2" id="p12" data-status="w12"></td>
+                        <td class="colTab2" id="p13" data-status="w13"></td>
+                        <td class="colTab2" id="p14" data-status="w14"></td>
+                        <td class="colTab2" id="p15" data-status="w15"></td>
+                        <td class="colTab2" id="p16" data-status="w16"></td>
+                        <td class="colTab2" id="p17" data-status="w17"></td>
+                        <td class="colTab2" id="p18" data-status="w18"></td>
+                        <td class="colTab2" id="p19" data-status="w19"></td>
+                    </tr>
+                    <tr>
+                        <th>3</th>
+                        <td class="colTab2" id="p20" data-status="w20"></td>
+                        <td class="colTab2" id="p21" data-status="w21"></td>
+                        <td class="colTab2" id="p22" data-status="w22"></td>
+                        <td class="colTab2" id="p23" data-status="w23"></td>
+                        <td class="colTab2" id="p24" data-status="w24"></td>
+                        <td class="colTab2" id="p25" data-status="w25"></td>
+                        <td class="colTab2" id="p26" data-status="w26"></td>
+                        <td class="colTab2" id="p27" data-status="w27"></td>
+                        <td class="colTab2" id="p28" data-status="w28"></td>
+                        <td class="colTab2" id="p29" data-status="w29"></td>
+                    </tr>
+                    <tr>
+                        <th>4</th>
+                        <td class="colTab2" id="p30" data-status="w30"></td>
+                        <td class="colTab2" id="p31" data-status="w31"></td>
+                        <td class="colTab2" id="p32" data-status="w32"></td>
+                        <td class="colTab2" id="p33" data-status="w33"></td>
+                        <td class="colTab2" id="p34" data-status="w34"></td>
+                        <td class="colTab2" id="p35" data-status="w35"></td>
+                        <td class="colTab2" id="p36" data-status="w36"></td>
+                        <td class="colTab2" id="p37" data-status="w37"></td>
+                        <td class="colTab2" id="p38" data-status="w38"></td>
+                        <td class="colTab2" id="p39" data-status="w39"></td>
+                    </tr>
+                    <tr>
+                        <th>5</th>
+                        <td class="colTab2" id="p40" data-status="w40"></td>
+                        <td class="colTab2" id="p41" data-status="w41"></td>
+                        <td class="colTab2" id="p42" data-status="w42"></td>
+                        <td class="colTab2" id="p43" data-status="w43"></td>
+                        <td class="colTab2" id="p44" data-status="w44"></td>
+                        <td class="colTab2" id="p45" data-status="w45"></td>
+                        <td class="colTab2" id="p46" data-status="w46"></td>
+                        <td class="colTab2" id="p47" data-status="w47"></td>
+                        <td class="colTab2" id="p48" data-status="w48"></td>
+                        <td class="colTab2" id="p49" data-status="w49"></td>
+                    </tr>
+                    <tr>
+                        <th>6</th>
+                        <td class="colTab2" id="p50" data-status="w50"></td>
+                        <td class="colTab2" id="p51" data-status="w51"></td>
+                        <td class="colTab2" id="p52" data-status="w52"></td>
+                        <td class="colTab2" id="p53" data-status="w53"></td>
+                        <td class="colTab2" id="p54" data-status="w54"></td>
+                        <td class="colTab2" id="p55" data-status="w55"></td>
+                        <td class="colTab2" id="p56" data-status="w56"></td>
+                        <td class="colTab2" id="p57" data-status="w57"></td>
+                        <td class="colTab2" id="p58" data-status="w58"></td>
+                        <td class="colTab2" id="p59" data-status="w59"></td>
+                    </tr>
+                    <tr>
+                        <th>7</th>
+                        <td class="colTab2" id="p60" data-status="w60"></td>
+                        <td class="colTab2" id="p61" data-status="w61"></td>
+                        <td class="colTab2" id="p62" data-status="w62"></td>
+                        <td class="colTab2" id="p63" data-status="w63"></td>
+                        <td class="colTab2" id="p64" data-status="w64"></td>
+                        <td class="colTab2" id="p65" data-status="w65"></td>
+                        <td class="colTab2" id="p66" data-status="w66"></td>
+                        <td class="colTab2" id="p67" data-status="w67"></td>
+                        <td class="colTab2" id="p68" data-status="w68"></td>
+                        <td class="colTab2" id="p69" data-status="w69"></td>
+                    </tr>
+                    <tr>
+                        <th>8</th>
+                        <td class="colTab2" id="p70" data-status="w70"></td>
+                        <td class="colTab2" id="p71" data-status="w71"></td>
+                        <td class="colTab2" id="p72" data-status="w72"></td>
+                        <td class="colTab2" id="p73" data-status="w73"></td>
+                        <td class="colTab2" id="p74" data-status="w74"></td>
+                        <td class="colTab2" id="p75" data-status="w75"></td>
+                        <td class="colTab2" id="p76" data-status="w76"></td>
+                        <td class="colTab2" id="p77" data-status="w77"></td>
+                        <td class="colTab2" id="p78" data-status="w78"></td>
+                        <td class="colTab2" id="p79" data-status="w79"></td>
+                    </tr>
+                    <tr>
+                        <th>9</th>
+                        <td class="colTab2" id="p80" data-status="w80"></td>
+                        <td class="colTab2" id="p81" data-status="w81"></td>
+                        <td class="colTab2" id="p82" data-status="w82"></td>
+                        <td class="colTab2" id="p83" data-status="w83"></td>
+                        <td class="colTab2" id="p84" data-status="w84"></td>
+                        <td class="colTab2" id="p85" data-status="w85"></td>
+                        <td class="colTab2" id="p86" data-status="w86"></td>
+                        <td class="colTab2" id="p87" data-status="w87"></td>
+                        <td class="colTab2" id="p88" data-status="w88"></td>
+                        <td class="colTab2" id="p89" data-status="w89"></td>
+                    </tr>
+                    <tr>
+                        <th>10</th>
+                        <td class="colTab2" id="p90" data-status="w90"></td>
+                        <td class="colTab2" id="p91" data-status="w91"></td>
+                        <td class="colTab2" id="p92" data-status="w92"></td>
+                        <td class="colTab2" id="p93" data-status="w93"></td>
+                        <td class="colTab2" id="p94" data-status="w94"></td>
+                        <td class="colTab2" id="p95" data-status="w95"></td>
+                        <td class="colTab2" id="p96" data-status="w96"></td>
+                        <td class="colTab2" id="p97" data-status="w97"></td>
+                        <td class="colTab2" id="p98" data-status="w98"></td>
+                        <td class="colTab2" id="p99" data-status="w99"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </main>
+    <footer class="row">
+        <div class="col-md-4 col-sm-4">
+            <div class="list-inline">
+                <button id="btGotov" class="btn btn-default btn-block disabled">Готов к Игре</button><!--disabled вернуть обратно-->
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-4">
+        </div>
+        <div class="col-md-4 col-sm-4">
+        </div>
+    </footer>
+    <!-- Small modal -->
+    <!-- HTML код модального окна-->
+    <div id="myModal" class="modal fade" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Приглашение</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Вас Приглашает к игре <strong id="kogo"></strong>. Принять?</p>
+                </div>
+                <div class="modal-footer">
+                    <button id="net" type="button" class="btn btn-default">Отказать</button>
+                    <button id="da" type="button" class="btn btn-primary">Принять приглашение</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Small modal -->
+    <!-- Вывод остальных сообщений-->
+    <div id="ModalAll" class="modal fade animated rollIn">
+        <div class="modal-dialog list-group-item-success">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">ВНИМАНИЕ!!!</h4>
+                </div>
+                <div class="modal-body">
+                    <p><strong id="messaege"></strong></p>
+                </div>
+                <div class="modal-footer">
+                    <button id="ok" type="button" class="btn btn-default">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="javascripts/jquery-2.1.4.min.js"></script>
+    <script src="javascripts/bootstrap.min.js"></script>
+    <script src="javascripts/sockjs.min.js"></script>
+    <script src="javascripts/default.js"></script>
+</body>
+</html>
